@@ -2,12 +2,12 @@ import streamlit as st
 
 def convert_currency(amount, currency):
     conversion_rates = {
-        "PKR": 171.5,
-        "SGD": 1.34,
-        "INR": 74.81,
-        "EUR": 0.91,
-        "CHF": 0.98,
-        "GBP": 0.71
+        "PKR": 285.00,
+        "SGD": 1.35,
+        "INR": 82.56,
+        "EUR": 0.93,
+        "CHF": 7.06,
+        "GBP": 0.81
     }
 
     converted_amount = amount * conversion_rates[currency]
